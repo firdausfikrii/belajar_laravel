@@ -38,7 +38,7 @@
 	<!-- Volt CSS -->
 	<!-- Before -->
 	<!-- <link type="text/css" href="../../css/volt.css" rel="stylesheet"> -->
-    
+
     <!-- After -->
     <link type="text/css" href="{{ asset('assets-admin/css/volt.css')}}" rel="stylesheet">
 
@@ -50,7 +50,7 @@
             <!-- Before -->
 			<!-- <img class="navbar-brand-dark" src="../../assets/img/brand/light.svg" alt="Volt logo" />
 			<img class="navbar-brand-light" src="../../assets/img/brand/dark.svg" alt="Volt logo" /> -->
-            
+
             <!-- After -->
             <img class="navbar-brand-dark" src="{{ asset('assets-admin/img/brand/light.svg') }}" alt="Volt logo" />
             <img class="navbar-brand-light" src="{{ asset('assets-admin/img/brand/dark.svg') }}" alt="Volt logo" />
@@ -979,7 +979,7 @@
     <!-- Core -->
     <script src="{{asset('assets-admin/vendor/@popperjs/core/dist/umd/popper.min.js')}}"></script>
     <script src="{{asset('assets-admin/vendor/bootstrap/dist/js/bootstrap.min.js')}}"></script>
-    
+
     <!-- Vendor JS -->
     <script src="{{asset('assets-admin/vendor/onscreen/dist/on-screen.umd.min.js')}}"></script>
 
