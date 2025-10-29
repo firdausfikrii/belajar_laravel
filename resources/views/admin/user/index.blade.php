@@ -31,10 +31,6 @@
         </div>
     </div>
 
-    @if (session('succes'))
-        <div class="alert alert-successs">{{ session('success') }}</div>
-    @endif
-
     <div class="row">
         <div class="col-12 mb-4">
             <div class="card border-0 shadow mb-4">
@@ -84,6 +80,11 @@
                                         </td>
                                     </tr>
                                 @endforeach
+                                @if(session('success'))
+                                        <div class="alert alert-success">
+                                            {{ session('success') }}
+                                        </div>
+                                    @endif
                             </tbody>
                         </table>
                     </div>

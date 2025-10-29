@@ -66,6 +66,7 @@ class PelangganController extends Controller
      */
     public function update(Request $request, string $id)
     {
+        
         $pelanggan_id = $id;
         $pelanggan = Pelanggan::findOrFail($pelanggan_id);
         $pelanggan->first_name = $request->first_name;
