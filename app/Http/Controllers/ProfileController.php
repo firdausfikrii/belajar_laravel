@@ -9,6 +9,10 @@ use Illuminate\Support\Facades\Auth;
 
 class ProfileController extends Controller
 {
+    public function index()
+    {
+        //
+    }
     // Show the edit profile form
     public function edit()
     {

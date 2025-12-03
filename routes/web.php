@@ -61,6 +61,13 @@ Route::post('/save', [MultipleuploadsController::class, 'store'])->name('uploads
 // Route::post('/save','MultipleuploadsController@store')->name('uploads.store');
 
 Route::get('profile', [ProfileController::class, 'edit'])->name('profile');
+Route::resource('profile', ProfileController::class);
+
+
+
+
+
+
 
 // halaman guest
 Route::middleware('guest')->group(function () {
